@@ -10,12 +10,11 @@ public class Shape {
     }
 
     public double calculatePerimeter() {
-        double perimeter = 0.0;
+        double perimeter = 0;
 
         for (int i = 0; i < container.size() - 1; i++) {
             perimeter += container.get(i).distance(container.get(i + 1));
         }
-
 
         perimeter += container.get(container.size() - 1).distance(container.get(0));
 

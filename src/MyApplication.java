@@ -26,8 +26,8 @@ public class MyApplication {
 
                         Point point = new Point(x, y);
                         shape.addPoint(point);
-                        System.out.println("Добавлена точка: " + point);
-                    }                }
+                        System.out.println( point);
+                    }              }
             }
             System.out.println( shape.calculatePerimeter());
         }
